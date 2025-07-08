@@ -1,5 +1,15 @@
 export const webProjects = [
     {
+        title: "Game Theory",
+        description: "A web presentation showing different tactics in the theoretical prisoners dillema.",
+        url: "https://nemanjamitric.github.io/game-theory/",
+        year: 2025,
+        context: "FERI Maribor Project",
+        technologies: ["JavaScript", "HTML", "CSS"],
+        team: "Solo",
+        category: "Web",
+    },
+    {
         title: "Donut",
         description: "My personal favourite project.",
         url: "https://nemanjamitric.github.io/donut/",
