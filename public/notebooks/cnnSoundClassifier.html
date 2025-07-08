@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>98d51ae996864fbf87b3ac367e114a35</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="1"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-10T20:31:05.527914Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-10T20:31:05.527668Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-10T20:31:15.915742Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-10T20:31:15.914619Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-10T20:31:05.527895Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install <span class="op">-</span>q soundata</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 51.3/51.3 kB 1.6 MB/s eta 0:00:00
+etadata (setup.py) ... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 162.0/162.0 kB 5.3 MB/s eta 0:00:00
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.7/69.7 kB 3.8 MB/s eta 0:00:00
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 40.9 MB/s eta 0:00:0000:0100:01
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.4/96.4 kB 5.7 MB/s eta 0:00:00
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 102.8/102.8 kB 5.9 MB/s eta 0:00:00
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.7/50.7 kB 2.8 MB/s eta 0:00:00
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 141.3/141.3 kB 8.5 MB/s eta 0:00:00
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 412.9/412.9 kB 20.4 MB/s eta 0:00:00
+s (setup.py) ... </code></pre>
+</div>
+</div>
+<section id="environmental-sound-classification-using-cnn"
+class="cell markdown">
+<h1>Environmental Sound Classification using CNN</h1>
+<p>In this notebook, I will build a neural network model that can
+recognize different sounds from the UrbanSound8K dataset. This is useful
+in many real-life situations like smart cities, noise monitoring, or
+safety systems.</p>
+</section>
+<div class="cell code" data-execution_count="2"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-10T20:31:15.918174Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-10T20:31:15.917874Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-10T20:31:32.626977Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-10T20:31:32.626317Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-10T20:31:15.918145Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> soundata</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> librosa</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> librosa.display</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> soundata</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tqdm <span class="im">import</span> tqdm</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix, ConfusionMatrixDisplay</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Sequential</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras <span class="im">import</span> Input</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Conv2D, MaxPooling2D, Flatten, Dense, Dropout</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>2025-06-10 20:31:18.705167: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1749587478.970585      35 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1749587479.044610      35 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="3"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-10T20:31:32.628157Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-10T20:31:32.627668Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-10T20:37:47.269236Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-10T20:37:47.268389Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-10T20:31:32.628136Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>dataset <span class="op">=</span> soundata.initialize(<span class="st">&#39;urbansound8k&#39;</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>dataset.download()</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>dataset.validate()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>5.61GB [04:17, 23.4MB/s]                                
+1.15MB [00:01, 1.08MB/s]                            
+100%|██████████| 1/1 [00:00&lt;00:00, 488.90it/s]
+100%|██████████| 8732/8732 [00:20&lt;00:00, 431.84it/s]
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="3">
+<pre><code>({&#39;metadata&#39;: {}, &#39;clips&#39;: {}}, {&#39;metadata&#39;: {}, &#39;clips&#39;: {}})</code></pre>
+</div>
+</div>
+<section id="load-metadata-and-filter-only-5-classes"
+class="cell markdown">
+<h2>Load metadata and filter only 5 classes</h2>
+<p>We will only use 5 sound types to make our model simple and fast.
+These are: dog_bark, engine_idling, street_music, ari_conditioner, and
+drilling.</p>
+</section>
+<div class="cell code" data-execution_count="4"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-10T20:37:47.272091Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-10T20:37:47.270443Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-10T20:37:48.120355Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-10T20:37:48.119563Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-10T20:37:47.272045Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>clipIds <span class="op">=</span> dataset.clip_ids</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>rows <span class="op">=</span> []</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> clipId <span class="kw">in</span> clipIds:</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    clip <span class="op">=</span> dataset.clip(clipId)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    classLabel <span class="op">=</span> clip.tags.labels[<span class="dv">0</span>] <span class="cf">if</span> clip.tags.labels <span class="cf">else</span> <span class="va">None</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    rows.append({</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;clip_id&#39;</span>: clipId,</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;file_path&#39;</span>: clip.audio_path,</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;fold&#39;</span>: clip.fold,</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;class&#39;</span>: classLabel</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>    })</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>meta <span class="op">=</span> pd.DataFrame(rows)</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Unique class labels found:&quot;</span>, <span class="bu">sorted</span>(meta[<span class="st">&#39;class&#39;</span>].unique()))</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>chosenClasses <span class="op">=</span> [<span class="st">&#39;dog_bark&#39;</span>, <span class="st">&#39;engine_idling&#39;</span>, <span class="st">&#39;drilling&#39;</span>, <span class="st">&#39;street_music&#39;</span>, <span class="st">&#39;air_conditioner&#39;</span>]</span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>meta <span class="op">=</span> meta[meta[<span class="st">&#39;class&#39;</span>].isin(chosenClasses)].reset_index(drop<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Unique class labels found: [&#39;air_conditioner&#39;, &#39;car_horn&#39;, &#39;children_playing&#39;, &#39;dog_bark&#39;, &#39;drilling&#39;, &#39;engine_idling&#39;, &#39;gun_shot&#39;, &#39;jackhammer&#39;, &#39;siren&#39;, &#39;street_music&#39;]
+</code></pre>
+</div>
+</div>
+<section id="convert-audio-into-mel-spectrograms" class="cell markdown">
+<h2>Convert audio into mel spectrograms</h2>
+<p>We turn audio files into 2D images (mel spectrograms) so that CNN can
+work with them. Each audio file is max 6 seconds.</p>
+</section>
+<div class="cell code" data-execution_count="5"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-10T20:37:48.121521Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-10T20:37:48.121219Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-10T20:37:48.126579Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-10T20:37:48.125677Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-10T20:37:48.121492Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> extractMel(filePath, sr<span class="op">=</span><span class="dv">22050</span>, nMels<span class="op">=</span><span class="dv">128</span>, duration<span class="op">=</span><span class="dv">6</span>):</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    y, sr <span class="op">=</span> librosa.load(filePath, sr<span class="op">=</span>sr, duration<span class="op">=</span>duration)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    mel <span class="op">=</span> librosa.feature.melspectrogram(y<span class="op">=</span>y, sr<span class="op">=</span>sr, n_mels<span class="op">=</span>nMels)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    melDb <span class="op">=</span> librosa.power_to_db(mel, ref<span class="op">=</span>np.<span class="bu">max</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> melDb</span></code></pre></div>
+</div>
+<section id="prepare-x-and-y-for-model" class="cell markdown">
+<h2>Prepare X and y for model</h2>
+<p>We will create two lists: X for spectrogram images and y for class
+labels. We will use fold 10 for testing, and the rest for training.</p>
+</section>
+<div class="cell code" data-execution_count="6"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-10T20:37:48.127833Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-10T20:37:48.127546Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-10T20:39:45.592212Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-10T20:39:45.590856Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-10T20:37:48.127815Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>trainFolds <span class="op">=</span> <span class="bu">list</span>(<span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">10</span>))</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>testFold <span class="op">=</span> <span class="dv">10</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>trainFiles <span class="op">=</span> meta[meta[<span class="st">&#39;fold&#39;</span>].isin(trainFolds)]</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>testFiles <span class="op">=</span> meta[meta[<span class="st">&#39;fold&#39;</span>] <span class="op">==</span> testFold]</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> buildDataset(fileList):</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>    X <span class="op">=</span> []</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> []</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _, row <span class="kw">in</span> tqdm(fileList.iterrows(), total<span class="op">=</span><span class="bu">len</span>(fileList)):</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>        filePath <span class="op">=</span> row[<span class="st">&#39;file_path&#39;</span>]</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">try</span>:</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>            mel <span class="op">=</span> extractMel(filePath)</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> mel.shape[<span class="dv">1</span>] <span class="op">&lt;</span> <span class="dv">173</span>:</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>                padWidth <span class="op">=</span> <span class="dv">173</span> <span class="op">-</span> mel.shape[<span class="dv">1</span>]</span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>                mel <span class="op">=</span> np.pad(mel, ((<span class="dv">0</span>, <span class="dv">0</span>), (<span class="dv">0</span>, padWidth)))</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>                mel <span class="op">=</span> mel[:, :<span class="dv">173</span>]</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>            mel <span class="op">=</span> mel.astype(np.float32)</span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>            X.append(mel)</span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>            y.append(row[<span class="st">&#39;class&#39;</span>])</span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>        <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;Skipped:&quot;</span>, filePath, <span class="st">&quot;Error:&quot;</span>, e)</span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>    X <span class="op">=</span> np.array(X)</span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> np.array(y)</span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> X, y</span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>XTrain, yTrain <span class="op">=</span> buildDataset(trainFiles)</span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a>XTest, yTest <span class="op">=</span> buildDataset(testFiles)</span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(XTrain.shape)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>100%|██████████| 4507/4507 [01:48&lt;00:00, 41.70it/s]
+100%|██████████| 493/493 [00:09&lt;00:00, 54.33it/s]</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>(4507, 128, 173)
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>
+</code></pre>
+</div>
+</div>
+<section id="reshape-and-encode-labels" class="cell markdown">
+<h2>Reshape and encode labels</h2>
+<p>We reshape the data to fit CNN input and change labels into
+numbers.</p>
+</section>
+<div class="cell code" data-execution_count="7"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-10T20:39:45.596240Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-10T20:39:45.595838Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-10T20:39:45.605218Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-10T20:39:45.604089Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-10T20:39:45.596211Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>XTrain <span class="op">=</span> XTrain.squeeze()</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>XTest <span class="op">=</span> XTest.squeeze()</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> XTrain.ndim <span class="op">==</span> <span class="dv">3</span>:</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    XTrain <span class="op">=</span> XTrain[..., np.newaxis]</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> XTest.ndim <span class="op">==</span> <span class="dv">3</span>:</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    XTest <span class="op">=</span> XTest[..., np.newaxis]</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>labelEncoder <span class="op">=</span> LabelEncoder()</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>yTrainEncoded <span class="op">=</span> labelEncoder.fit_transform(yTrain)</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>yTestEncoded <span class="op">=</span> labelEncoder.transform(yTest)</span></code></pre></div>
+</div>
+<section id="create-a-simple-cnn-model" class="cell markdown">
+<h2>Create a simple CNN model</h2>
+<p>We use two convolution layers with max pooling, flatten the data, and
+then use dense layers to predict.</p>
+</section>
+<div class="cell code" data-execution_count="8"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-10T20:39:45.606642Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-10T20:39:45.606311Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-10T20:39:45.882145Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-10T20:39:45.881236Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-10T20:39:45.606615Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>inputShape <span class="op">=</span> XTrain.shape[<span class="dv">1</span>:]</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> Sequential([</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    Input(shape<span class="op">=</span>inputShape),</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>    Conv2D(<span class="dv">16</span>, (<span class="dv">3</span>,<span class="dv">3</span>), activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>),</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>    MaxPooling2D((<span class="dv">2</span>,<span class="dv">2</span>)),</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>    Conv2D(<span class="dv">32</span>, (<span class="dv">3</span>,<span class="dv">3</span>), activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>),</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>    MaxPooling2D((<span class="dv">2</span>,<span class="dv">2</span>)),</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>    Flatten(),</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">64</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>),</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>    Dropout(<span class="fl">0.3</span>),</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="bu">len</span>(chosenClasses), activation<span class="op">=</span><span class="st">&#39;softmax&#39;</span>)</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>])</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>2025-06-10 20:39:45.714623: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:152] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+</code></pre>
+</div>
+</div>
+<section id="train-the-model" class="cell markdown">
+<h2>Train the model</h2>
+<p>We train the model for 10 epochs.</p>
+</section>
+<div class="cell code" data-execution_count="9"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-10T20:39:45.883485Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-10T20:39:45.883164Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-10T20:46:05.120775Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-10T20:46:05.119611Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-10T20:39:45.883455Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>model.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>, loss<span class="op">=</span><span class="st">&#39;sparse_categorical_crossentropy&#39;</span>, metrics<span class="op">=</span>[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>history <span class="op">=</span> model.fit(XTrain, yTrainEncoded, epochs<span class="op">=</span><span class="dv">10</span>, batch_size<span class="op">=</span><span class="dv">32</span>, validation_data<span class="op">=</span>(XTest, yTestEncoded))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/10
+141/141 ━━━━━━━━━━━━━━━━━━━━ 39s 257ms/step - accuracy: 0.2328 - loss: 10.7417 - val_accuracy: 0.3955 - val_loss: 1.3519
+Epoch 2/10
+141/141 ━━━━━━━━━━━━━━━━━━━━ 37s 262ms/step - accuracy: 0.3879 - loss: 1.3923 - val_accuracy: 0.4320 - val_loss: 1.2979
+Epoch 3/10
+141/141 ━━━━━━━━━━━━━━━━━━━━ 36s 252ms/step - accuracy: 0.4407 - loss: 1.3040 - val_accuracy: 0.4970 - val_loss: 1.3396
+Epoch 4/10
+141/141 ━━━━━━━━━━━━━━━━━━━━ 35s 251ms/step - accuracy: 0.4247 - loss: 1.2811 - val_accuracy: 0.5923 - val_loss: 1.0560
+Epoch 5/10
+141/141 ━━━━━━━━━━━━━━━━━━━━ 36s 258ms/step - accuracy: 0.4998 - loss: 1.0846 - val_accuracy: 0.6227 - val_loss: 1.0025
+Epoch 6/10
+141/141 ━━━━━━━━━━━━━━━━━━━━ 35s 250ms/step - accuracy: 0.6222 - loss: 0.9160 - val_accuracy: 0.6024 - val_loss: 1.0049
+Epoch 7/10
+141/141 ━━━━━━━━━━━━━━━━━━━━ 47s 330ms/step - accuracy: 0.6222 - loss: 0.8645 - val_accuracy: 0.7039 - val_loss: 1.0755
+Epoch 8/10
+141/141 ━━━━━━━━━━━━━━━━━━━━ 36s 255ms/step - accuracy: 0.6978 - loss: 0.7023 - val_accuracy: 0.7363 - val_loss: 0.9223
+Epoch 9/10
+141/141 ━━━━━━━━━━━━━━━━━━━━ 36s 254ms/step - accuracy: 0.7298 - loss: 0.6677 - val_accuracy: 0.7424 - val_loss: 0.9385
+Epoch 10/10
+141/141 ━━━━━━━━━━━━━━━━━━━━ 41s 256ms/step - accuracy: 0.7448 - loss: 0.6221 - val_accuracy: 0.7546 - val_loss: 0.9787
+</code></pre>
+</div>
+</div>
+<section id="plot-training-and-validation-accuracy"
+class="cell markdown">
+<h2>Plot training and validation accuracy</h2>
+<p>We can see how well the model is learning by looking at accuracy and
+loss graphs.</p>
+</section>
+<div class="cell code" data-execution_count="10"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-10T20:46:05.123124Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-10T20:46:05.122761Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-10T20:46:05.619907Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-10T20:46:05.618932Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-10T20:46:05.123043Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>plt.plot(history.history[<span class="st">&#39;accuracy&#39;</span>], label<span class="op">=</span><span class="st">&#39;Train Accuracy&#39;</span>)</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>plt.plot(history.history[<span class="st">&#39;val_accuracy&#39;</span>], label<span class="op">=</span><span class="st">&#39;Test Accuracy&#39;</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Epoch&#39;</span>)</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Accuracy&#39;</span>)</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Training vs Test Accuracy&#39;</span>)</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>plt.plot(history.history[<span class="st">&#39;loss&#39;</span>], label<span class="op">=</span><span class="st">&#39;Train Loss&#39;</span>)</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>plt.plot(history.history[<span class="st">&#39;val_loss&#39;</span>], label<span class="op">=</span><span class="st">&#39;Test Loss&#39;</span>)</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Epoch&#39;</span>)</span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Loss&#39;</span>)</span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Training vs Test Loss&#39;</span>)</span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="images/da0cce3caf2625f91925ff95432e3157bceb324c.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="images/ba26beac66009f8b4c529f2a1c396e7977d8b0a7.png" /></p>
+</div>
+</div>
+<section id="confusion-matrix-to-show-model-performance"
+class="cell markdown">
+<h2>Confusion matrix to show model performance</h2>
+<p>This matrix shows how often the model guesses correctly or makes
+mistakes between classes.</p>
+</section>
+<div class="cell code" data-execution_count="11"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-10T20:46:05.621210Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-10T20:46:05.620890Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-10T20:46:07.304494Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-10T20:46:07.303570Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-10T20:46:05.621182Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>yPred <span class="op">=</span> model.predict(XTest)</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>yPredLabels <span class="op">=</span> np.argmax(yPred, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>cm <span class="op">=</span> confusion_matrix(yTestEncoded, yPredLabels)</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>disp <span class="op">=</span> ConfusionMatrixDisplay(confusion_matrix<span class="op">=</span>cm, display_labels<span class="op">=</span>labelEncoder.classes_)</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>disp.plot(cmap<span class="op">=</span><span class="st">&#39;Blues&#39;</span>)</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Confusion Matrix&#39;</span>)</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>16/16 ━━━━━━━━━━━━━━━━━━━━ 1s 72ms/step
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="images/56ff6d591e114a5b975f3c07ca0a8dbf982a1f62.png" /></p>
+</div>
+</div>
+<section id="show-example-of-prediction" class="cell markdown">
+<h2>Show example of prediction</h2>
+<p>We will pick one example from test data and see what the model
+thinks.</p>
+</section>
+<div class="cell code" data-execution_count="12"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-10T20:46:07.306139Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-10T20:46:07.305771Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-10T20:46:07.767637Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-10T20:46:07.766469Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-10T20:46:07.306107Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>index <span class="op">=</span> random.randint(<span class="dv">0</span>, <span class="bu">len</span>(XTest)<span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>sample <span class="op">=</span> XTest[index]</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>trueLabel <span class="op">=</span> yTest[index]</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>prediction <span class="op">=</span> labelEncoder.inverse_transform([np.argmax(model.predict(sample[np.newaxis, ...]))])[<span class="dv">0</span>]</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>plt.imshow(sample.squeeze(), aspect<span class="op">=</span><span class="st">&#39;auto&#39;</span>, origin<span class="op">=</span><span class="st">&#39;lower&#39;</span>)</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;True: </span><span class="sc">{</span>trueLabel<span class="sc">}</span><span class="ss"> | Predicted: </span><span class="sc">{</span>prediction<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Time&quot;</span>)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Mel Frequency&quot;</span>)</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>plt.colorbar()</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 41ms/step
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="images/c2d471f222c02ce3c34ab8c44b5268a227e40867.png" /></p>
+</div>
+</div>
+<section id="conclusion" class="cell markdown">
+<h1>Conclusion</h1>
+<p>We built a simple CNN model to classify 5 types of urban sounds from
+the UrbanSound8K dataset. We used mel spectrograms as input features and
+trained the model using only fold 1–9 as training and fold 10 as test.
+The model showed good accuracy and learned to tell the difference
+between sounds.</p>
+<p>In future work, we can:</p>
+<ul>
+<li>Use all 10 classes instead of 5 (more time)</li>
+<li>Try more advanced models like LSTM or ResNet</li>
+</ul>
+</section>
+</body>
+</html>
