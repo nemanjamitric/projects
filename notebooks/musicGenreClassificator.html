@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ef91afe7bf2b4245ba0c31bcc41fc576</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="music-genre-classification-with-mlp-and-cnn"
+class="cell markdown">
+<h1>Music Genre Classification with MLP and CNN</h1>
+<p>This notebook performs music genre classification using two
+approaches:</p>
+<ul>
+<li>MLP (Multi-Layer Perceptron) based on extracted audio features</li>
+<li>CNN (Convolutional Neural Network) based on Mel-spectrograms</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="1"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-08T20:46:48.298102Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-08T20:46:48.297747Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-08T20:46:52.367823Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-08T20:46:52.366664Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-08T20:46:48.298067Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install librosa <span class="op">--</span>quiet</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="2"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-08T20:46:52.370348Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-08T20:46:52.369971Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-08T20:46:58.552396Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-08T20:46:58.551380Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-08T20:46:52.370288Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> glob</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>os.environ[<span class="st">&#39;TF_CPP_MIN_LOG_LEVEL&#39;</span>] <span class="op">=</span> <span class="st">&#39;3&#39;</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&#39;ignore&#39;</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> librosa</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> librosa.display</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix, ConfusionMatrixDisplay</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Sequential</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Dense, Dropout, Flatten, Conv2D, MaxPooling2D</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.utils <span class="im">import</span> to_categorical</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.callbacks <span class="im">import</span> EarlyStopping, ModelCheckpoint</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> kagglehub</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>sns.<span class="bu">set</span>(style<span class="op">=</span><span class="st">&quot;whitegrid&quot;</span>)</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>genres <span class="op">=</span> [<span class="st">&#39;blues&#39;</span>, <span class="st">&#39;classical&#39;</span>, <span class="st">&#39;country&#39;</span>, <span class="st">&#39;disco&#39;</span>, <span class="st">&#39;hiphop&#39;</span>, <span class="st">&#39;jazz&#39;</span>, <span class="st">&#39;metal&#39;</span>, <span class="st">&#39;pop&#39;</span>, <span class="st">&#39;reggae&#39;</span>, <span class="st">&#39;rock&#39;</span>]</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>sampleRate <span class="op">=</span> <span class="dv">22050</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>duration <span class="op">=</span> <span class="dv">30</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>segmentLength <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>samplesPerTrack <span class="op">=</span> sampleRate <span class="op">*</span> duration</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>segmentsPerTrack <span class="op">=</span> duration <span class="op">//</span> segmentLength</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plotClassDistributions(yTrain, yVal, yTest, modelName):</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>    fig, axes <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">18</span>, <span class="dv">5</span>))</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> ax, y, title <span class="kw">in</span> <span class="bu">zip</span>(axes, [yTrain, yVal, yTest], [<span class="st">&#39;Train&#39;</span>, <span class="st">&#39;Validation&#39;</span>, <span class="st">&#39;Test&#39;</span>]):</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>        sns.countplot(x<span class="op">=</span>y, ax<span class="op">=</span>ax)</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>        ax.set_title(<span class="ss">f&#39;</span><span class="sc">{</span>title<span class="sc">}</span><span class="ss"> Set - </span><span class="sc">{</span>modelName<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>        ax.set_xlabel(<span class="st">&#39;Genre Index&#39;</span>)</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>        ax.set_ylabel(<span class="st">&#39;Count&#39;</span>)</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1749415614.339294    2039 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1749415614.357583    2039 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+</code></pre>
+</div>
+</div>
+<section id="dataset-preparation-and-feature-extraction-mlp"
+class="cell markdown">
+<h2>Dataset Preparation and Feature Extraction (MLP)</h2>
+<p>We used the GTZAN dataset and prepared it for training an MLP model.
+Each song was split into smaller 3-second segments. For every segment we
+extracted MFCCs and six other audio features: zero-crossing rate,
+spectral centroid, spectral bandwidth, spectral roll-off, spectral
+contrast, and chroma features. All features were averaged over time so
+that each segment is represented with a fixed-length vector.</p>
+</section>
+<div class="cell code" data-execution_count="3"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-08T20:46:58.554164Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-08T20:46:58.553488Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-08T20:54:20.634358Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-08T20:54:20.632529Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-08T20:46:58.554125Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> extractFeaturesMLP(y, sr):</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    zcr <span class="op">=</span> np.mean(librosa.feature.zero_crossing_rate(y))</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    spectralCentroid <span class="op">=</span> np.mean(librosa.feature.spectral_centroid(y<span class="op">=</span>y, sr<span class="op">=</span>sr))</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    spectralBandwidth <span class="op">=</span> np.mean(librosa.feature.spectral_bandwidth(y<span class="op">=</span>y, sr<span class="op">=</span>sr))</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    rolloff <span class="op">=</span> np.mean(librosa.feature.spectral_rolloff(y<span class="op">=</span>y, sr<span class="op">=</span>sr))</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    rms <span class="op">=</span> np.mean(librosa.feature.rms(y<span class="op">=</span>y))</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    tempo <span class="op">=</span> librosa.beat.tempo(y<span class="op">=</span>y, sr<span class="op">=</span>sr)[<span class="dv">0</span>]</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    mfcc <span class="op">=</span> librosa.feature.mfcc(y<span class="op">=</span>y, sr<span class="op">=</span>sr, n_mfcc<span class="op">=</span><span class="dv">13</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    mfccs <span class="op">=</span> np.mean(mfcc, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.hstack([zcr, spectralCentroid, spectralBandwidth, rolloff, rms, tempo, mfccs])</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> prepareMLPDataset(baseDir):</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    X, y <span class="op">=</span> [], []</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, genre <span class="kw">in</span> <span class="bu">enumerate</span>(genres):</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>        genreDir <span class="op">=</span> os.path.join(baseDir, genre)</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> os.listdir(genreDir):</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="bu">file</span>.endswith(<span class="st">&quot;.wav&quot;</span>):</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>                filePath <span class="op">=</span> os.path.join(genreDir, <span class="bu">file</span>)</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>                <span class="cf">try</span>:</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>                    yFull, sr <span class="op">=</span> librosa.load(filePath, sr<span class="op">=</span>sampleRate)</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">for</span> s <span class="kw">in</span> <span class="bu">range</span>(segmentsPerTrack):</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>                        start <span class="op">=</span> s <span class="op">*</span> segmentLength <span class="op">*</span> sampleRate</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>                        end <span class="op">=</span> start <span class="op">+</span> segmentLength <span class="op">*</span> sampleRate</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>                        ySeg <span class="op">=</span> yFull[<span class="bu">int</span>(start):<span class="bu">int</span>(end)]</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>                        <span class="cf">if</span> <span class="bu">len</span>(ySeg) <span class="op">==</span> <span class="bu">int</span>(segmentLength <span class="op">*</span> sampleRate):</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>                            features <span class="op">=</span> extractFeaturesMLP(ySeg, sr)</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>                            X.append(features)</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>                            y.append(i)</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>                <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">print</span>(<span class="ss">f&quot;Skipping file </span><span class="sc">{</span>filePath<span class="sc">}</span><span class="ss"> due to error: </span><span class="sc">{</span>e<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.array(X), np.array(y)</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>path <span class="op">=</span> kagglehub.dataset_download(<span class="st">&quot;andradaolteanu/gtzan-dataset-music-genre-classification&quot;</span>)</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>baseDir <span class="op">=</span> os.path.join(path, <span class="st">&quot;Data/genres_original&quot;</span>)</span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Dataset path:&quot;</span>, baseDir)</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>X_mlp, y_mlp <span class="op">=</span> prepareMLPDataset(baseDir)</span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>X_train, X_temp, y_train, y_temp <span class="op">=</span> train_test_split(X_mlp, y_mlp, test_size<span class="op">=</span><span class="fl">0.3</span>, stratify<span class="op">=</span>y_mlp, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>X_val, X_test, y_val, y_test <span class="op">=</span> train_test_split(X_temp, y_temp, test_size<span class="op">=</span><span class="fl">0.5</span>, stratify<span class="op">=</span>y_temp, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>plotClassDistributions(y_train, y_val, y_test, <span class="st">&quot;MLP&quot;</span>)</span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>X_train <span class="op">=</span> scaler.fit_transform(X_train)</span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>X_val <span class="op">=</span> scaler.transform(X_val)</span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>X_test <span class="op">=</span> scaler.transform(X_test)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Dataset path: /kaggle/input/gtzan-dataset-music-genre-classification/Data/genres_original
+Skipping file /kaggle/input/gtzan-dataset-music-genre-classification/Data/genres_original/jazz/jazz.00054.wav due to error: 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="graphs/ac0c6eb213a65e219d9de42d405ba5155359c544.png" /></p>
+</div>
+</div>
+<section id="model-architecture-and-training-mlp" class="cell markdown">
+<h2>Model Architecture and Training (MLP)</h2>
+<p>The MLP model was built using a few dense layers with dropout to
+prevent overfitting. ReLU activation for hidden layers and softmax for
+the output. The model was trained using categorical crossentropy as the
+loss function, Adam optimizer, and early stopping based on validation
+loss.</p>
+</section>
+<div class="cell code" data-execution_count="4"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-08T20:54:20.636441Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-08T20:54:20.635560Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-08T20:54:48.187198Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-08T20:54:48.186003Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-08T20:54:20.636397Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> buildMLP(inputShape, nClasses):</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    model <span class="op">=</span> Sequential()</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    model.add(Dense(<span class="dv">256</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_shape<span class="op">=</span>(inputShape,)))</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    model.add(Dropout(<span class="fl">0.3</span>))</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    model.add(Dense(<span class="dv">128</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>))</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    model.add(Dropout(<span class="fl">0.3</span>))</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    model.add(Dense(nClasses, activation<span class="op">=</span><span class="st">&#39;softmax&#39;</span>))</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    model.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>, loss<span class="op">=</span><span class="st">&#39;sparse_categorical_crossentropy&#39;</span>, metrics<span class="op">=</span>[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> model</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>mlp <span class="op">=</span> buildMLP(X_train.shape[<span class="dv">1</span>], <span class="bu">len</span>(genres))</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>earlyStop <span class="op">=</span> EarlyStopping(monitor<span class="op">=</span><span class="st">&#39;val_loss&#39;</span>, patience<span class="op">=</span><span class="dv">5</span>, restore_best_weights<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>checkpoint <span class="op">=</span> ModelCheckpoint(<span class="st">&quot;mlpModel.h5&quot;</span>, save_best_only<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>history_mlp <span class="op">=</span> mlp.fit(</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>    X_train, y_train,</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>    validation_data<span class="op">=</span>(X_val, y_val),</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>    epochs<span class="op">=</span><span class="dv">50</span>,</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>    batch_size<span class="op">=</span><span class="dv">64</span>,</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>    callbacks<span class="op">=</span>[earlyStop, checkpoint],</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>    verbose<span class="op">=</span><span class="dv">0</span></span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="5"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-08T20:54:48.191619Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-08T20:54:48.191192Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-08T20:54:49.605493Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-08T20:54:49.603849Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-08T20:54:48.191581Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">4</span>))</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>plt.plot(history_mlp.history[<span class="st">&#39;loss&#39;</span>], label<span class="op">=</span><span class="st">&#39;Train Loss&#39;</span>)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>plt.plot(history_mlp.history[<span class="st">&#39;val_loss&#39;</span>], label<span class="op">=</span><span class="st">&#39;Val Loss&#39;</span>)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;MLP Loss over Epochs&quot;</span>)</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>plt.plot(history_mlp.history[<span class="st">&#39;accuracy&#39;</span>], label<span class="op">=</span><span class="st">&#39;Train Accuracy&#39;</span>)</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>plt.plot(history_mlp.history[<span class="st">&#39;val_accuracy&#39;</span>], label<span class="op">=</span><span class="st">&#39;Val Accuracy&#39;</span>)</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;MLP Accuracy over Epochs&quot;</span>)</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>y_pred_mlp <span class="op">=</span> mlp.predict(X_test).argmax(axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>cm <span class="op">=</span> confusion_matrix(y_test, y_pred_mlp, normalize<span class="op">=</span><span class="st">&#39;true&#39;</span>)</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>disp <span class="op">=</span> ConfusionMatrixDisplay(confusion_matrix<span class="op">=</span>cm, display_labels<span class="op">=</span>genres)</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>disp.plot(xticks_rotation<span class="op">=</span><span class="dv">45</span>, cmap<span class="op">=</span><span class="st">&quot;Blues&quot;</span>)</span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Normalized Confusion Matrix - MLP&quot;</span>)</span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="graphs/1a838a9cd3d0b61b7a2e1fbb883a57ffa9b413e2.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>47/47 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="graphs/d3da4a17a1bdfef3aceaeff3add7318f9f108a16.png" /></p>
+</div>
+</div>
+<section id="dataset-preparation-and-feature-extraction-cnn"
+class="cell markdown">
+<h2>Dataset Preparation and Feature Extraction (CNN)</h2>
+<p>For the CNN model, we again used the GTZAN dataset and split each
+audio file into 3-second segments. For each segment, we calculated a Mel
+spectrogram and converted it to decibel scale. This time-frequency
+representation was used as input for the CNN model, treating it like an
+image with one channel.</p>
+</section>
+<div class="cell code"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-08T20:54:49.615371Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-08T20:54:49.614801Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-08T20:56:30.292726Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> extractMelSpectrogram(y, sr, n_mels<span class="op">=</span><span class="dv">128</span>):</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    melSpec <span class="op">=</span> librosa.feature.melspectrogram(y<span class="op">=</span>y, sr<span class="op">=</span>sr, n_fft<span class="op">=</span><span class="dv">2048</span>, hop_length<span class="op">=</span><span class="dv">512</span>, n_mels<span class="op">=</span>n_mels)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    melSpecDB <span class="op">=</span> librosa.power_to_db(melSpec, ref<span class="op">=</span>np.<span class="bu">max</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> melSpecDB</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> prepareCNNDataset(baseDir, n_mels<span class="op">=</span><span class="dv">128</span>):</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    X, y <span class="op">=</span> [], []</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, genre <span class="kw">in</span> <span class="bu">enumerate</span>(genres):</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>        genreDir <span class="op">=</span> os.path.join(baseDir, genre)</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> os.listdir(genreDir):</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="bu">file</span>.endswith(<span class="st">&quot;.wav&quot;</span>):</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>                filePath <span class="op">=</span> os.path.join(genreDir, <span class="bu">file</span>)</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>                <span class="cf">try</span>:</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>                    yFull, sr <span class="op">=</span> librosa.load(filePath, sr<span class="op">=</span>sampleRate)</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">for</span> s <span class="kw">in</span> <span class="bu">range</span>(segmentsPerTrack):</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>                        start <span class="op">=</span> s <span class="op">*</span> segmentLength <span class="op">*</span> sampleRate</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>                        end <span class="op">=</span> start <span class="op">+</span> segmentLength <span class="op">*</span> sampleRate</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>                        ySeg <span class="op">=</span> yFull[<span class="bu">int</span>(start):<span class="bu">int</span>(end)]</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>                        <span class="cf">if</span> <span class="bu">len</span>(ySeg) <span class="op">==</span> <span class="bu">int</span>(segmentLength <span class="op">*</span> sampleRate):</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>                            melSpec <span class="op">=</span> librosa.feature.melspectrogram(</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>                                y<span class="op">=</span>ySeg, sr<span class="op">=</span>sr, n_mels<span class="op">=</span>n_mels</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>                            )</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>                            melSpecDB <span class="op">=</span> librosa.power_to_db(melSpec, ref<span class="op">=</span>np.<span class="bu">max</span>)</span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>                            X.append(melSpecDB[..., np.newaxis])</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>                            y.append(i)</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>                <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">print</span>(<span class="ss">f&quot;Skipping file </span><span class="sc">{</span>filePath<span class="sc">}</span><span class="ss"> due to error: </span><span class="sc">{</span>e<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.array(X), np.array(y)</span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>X_cnn, y_cnn <span class="op">=</span> prepareCNNDataset(baseDir)</span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>X_train_cnn, X_temp_cnn, y_train_cnn, y_temp_cnn <span class="op">=</span> train_test_split(X_cnn, y_cnn, test_size<span class="op">=</span><span class="fl">0.3</span>, stratify<span class="op">=</span>y_cnn, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a>X_val_cnn, X_test_cnn, y_val_cnn, y_test_cnn <span class="op">=</span> train_test_split(X_temp_cnn, y_temp_cnn, test_size<span class="op">=</span><span class="fl">0.5</span>, stratify<span class="op">=</span>y_temp_cnn, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a>plotClassDistributions(y_train_cnn, y_val_cnn, y_test_cnn, <span class="st">&quot;CNN&quot;</span>)</span>
+<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;CNN shapes:&quot;</span>)</span>
+<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Train:&quot;</span>, X_train_cnn.shape)</span>
+<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Validation:&quot;</span>, X_val_cnn.shape)</span>
+<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Test:&quot;</span>, X_test_cnn.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Skipping file /kaggle/input/gtzan-dataset-music-genre-classification/Data/genres_original/jazz/jazz.00054.wav due to error: 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="graphs/7d15711e5b997db3a8cb20536405dac0ae765772.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>CNN shapes:
+Train: (6986, 128, 130, 1)
+Validation: (1497, 128, 130, 1)
+Test: (1498, 128, 130, 1)
+</code></pre>
+</div>
+</div>
+<section id="model-architecture-and-training-cnn" class="cell markdown">
+<h2>Model Architecture and Training (CNN)</h2>
+<p>The CNN model was designed to work with spectrogram inputs. It
+includes convolutional and pooling layers to capture patterns in the
+frequency and time dimensions, followed by dense layers for
+classification. Early stopping was used during training to avoid
+overfitting.</p>
+</section>
+<div class="cell code"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-08T20:56:30.296983Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-08T20:56:30.296673Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-08T21:23:49.691590Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> buildCNN(inputShape, nClasses):</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    model <span class="op">=</span> Sequential()</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    model.add(Conv2D(<span class="dv">32</span>, (<span class="dv">3</span>, <span class="dv">3</span>), activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_shape<span class="op">=</span>inputShape))</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    model.add(MaxPooling2D((<span class="dv">2</span>, <span class="dv">2</span>)))</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>    model.add(Dropout(<span class="fl">0.3</span>))</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    model.add(Conv2D(<span class="dv">64</span>, (<span class="dv">3</span>, <span class="dv">3</span>), activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>))</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>    model.add(MaxPooling2D((<span class="dv">2</span>, <span class="dv">2</span>)))</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>    model.add(Dropout(<span class="fl">0.3</span>))</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>    model.add(Flatten())</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>    model.add(Dense(<span class="dv">128</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>))</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>    model.add(Dropout(<span class="fl">0.3</span>))</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>    model.add(Dense(nClasses, activation<span class="op">=</span><span class="st">&#39;softmax&#39;</span>))</span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>    model.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>, loss<span class="op">=</span><span class="st">&#39;sparse_categorical_crossentropy&#39;</span>, metrics<span class="op">=</span>[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> model</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>cnn <span class="op">=</span> buildCNN(X_train_cnn.shape[<span class="dv">1</span>:], <span class="bu">len</span>(genres))</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>earlyStopCNN <span class="op">=</span> EarlyStopping(monitor<span class="op">=</span><span class="st">&#39;val_loss&#39;</span>, patience<span class="op">=</span><span class="dv">5</span>, restore_best_weights<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>checkpointCNN <span class="op">=</span> ModelCheckpoint(<span class="st">&quot;cnnModel.h5&quot;</span>, save_best_only<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>history_cnn <span class="op">=</span> cnn.fit(</span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>    X_train_cnn, y_train_cnn,</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>    validation_data<span class="op">=</span>(X_val_cnn, y_val_cnn),</span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>    epochs<span class="op">=</span><span class="dv">50</span>,</span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>    batch_size<span class="op">=</span><span class="dv">32</span>,</span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>    callbacks<span class="op">=</span>[earlyStopCNN, checkpointCNN],</span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>    verbose<span class="op">=</span><span class="dv">0</span></span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-08T21:23:49.699993Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-08T21:23:49.699654Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-08T21:23:55.837137Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">4</span>))</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>plt.plot(history_cnn.history[<span class="st">&#39;loss&#39;</span>], label<span class="op">=</span><span class="st">&#39;Train Loss&#39;</span>)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>plt.plot(history_cnn.history[<span class="st">&#39;val_loss&#39;</span>], label<span class="op">=</span><span class="st">&#39;Val Loss&#39;</span>)</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;CNN Loss over Epochs&quot;</span>)</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>plt.plot(history_cnn.history[<span class="st">&#39;accuracy&#39;</span>], label<span class="op">=</span><span class="st">&#39;Train Accuracy&#39;</span>)</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>plt.plot(history_cnn.history[<span class="st">&#39;val_accuracy&#39;</span>], label<span class="op">=</span><span class="st">&#39;Val Accuracy&#39;</span>)</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;CNN Accuracy over Epochs&quot;</span>)</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>y_pred_cnn <span class="op">=</span> cnn.predict(X_test_cnn).argmax(axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>cm_cnn <span class="op">=</span> confusion_matrix(y_test_cnn, y_pred_cnn, normalize<span class="op">=</span><span class="st">&#39;true&#39;</span>)</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a>disp_cnn <span class="op">=</span> ConfusionMatrixDisplay(confusion_matrix<span class="op">=</span>cm_cnn, display_labels<span class="op">=</span>genres)</span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>disp_cnn.plot(xticks_rotation<span class="op">=</span><span class="dv">45</span>, cmap<span class="op">=</span><span class="st">&quot;Blues&quot;</span>)</span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Normalized Confusion Matrix - CNN&quot;</span>)</span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="graphs/e531e1f73a5edddead4aaeaa44a51cbe86f97d93.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>47/47 ━━━━━━━━━━━━━━━━━━━━ 5s 102ms/step
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="graphs/cdb4584d0560c2fb04598f3ef2675e0e23cdbbf7.png" /></p>
+</div>
+</div>
+<section id="real-example-genre-classification" class="cell markdown">
+<h2>Real Example Genre Classification</h2>
+<p>Evaluate trained models on real songs. Each song is split into
+segments (3s), each segment is classified individually, and the final
+genre is selected using a majority vote. Results are compared to the
+expected genre.</p>
+</section>
+<div class="cell code" data-execution_count="11"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-06-08T21:29:35.552851Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-06-08T21:29:35.551829Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-06-08T21:31:02.406930Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-06-08T21:31:02.405844Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2025-06-08T21:29:35.552819Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> predictGenreFromSong(songPath, model, modelType<span class="op">=</span><span class="st">&quot;cnn&quot;</span>, segmentLength<span class="op">=</span><span class="dv">3</span>, n_mels<span class="op">=</span><span class="dv">128</span>):</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>    y, sr <span class="op">=</span> librosa.load(songPath, sr<span class="op">=</span>sampleRate)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>    segments <span class="op">=</span> <span class="bu">int</span>(<span class="bu">len</span>(y) <span class="op">/</span> (segmentLength <span class="op">*</span> sampleRate))</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    preds <span class="op">=</span> []</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(segments):</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>        start <span class="op">=</span> i <span class="op">*</span> segmentLength <span class="op">*</span> sampleRate</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>        end <span class="op">=</span> start <span class="op">+</span> segmentLength <span class="op">*</span> sampleRate</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>        ySeg <span class="op">=</span> y[<span class="bu">int</span>(start):<span class="bu">int</span>(end)]</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="bu">len</span>(ySeg) <span class="op">==</span> <span class="bu">int</span>(segmentLength <span class="op">*</span> sampleRate):</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> modelType <span class="op">==</span> <span class="st">&quot;cnn&quot;</span>:</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>                melSpec <span class="op">=</span> librosa.feature.melspectrogram(y<span class="op">=</span>ySeg, sr<span class="op">=</span>sr, n_mels<span class="op">=</span>n_mels)</span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>                melSpecDB <span class="op">=</span> librosa.power_to_db(melSpec, ref<span class="op">=</span>np.<span class="bu">max</span>)</span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>                melSpecDB <span class="op">=</span> melSpecDB[..., np.newaxis]</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>                melSpecDB <span class="op">=</span> np.expand_dims(melSpecDB, axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>                pred <span class="op">=</span> model.predict(melSpecDB, verbose<span class="op">=</span><span class="dv">0</span>).argmax()</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>            <span class="cf">elif</span> modelType <span class="op">==</span> <span class="st">&quot;mlp&quot;</span>:</span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>                features <span class="op">=</span> extractFeaturesMLP(ySeg, sr)</span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>                features <span class="op">=</span> scaler.transform([features])</span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>                pred <span class="op">=</span> model.predict(features, verbose<span class="op">=</span><span class="dv">0</span>).argmax()</span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a>            preds.append(pred)</span>
+<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a>    predCounts <span class="op">=</span> pd.Series(preds).value_counts().sort_index()</span>
+<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a>    plt.bar(genres, predCounts.reindex(<span class="bu">range</span>(<span class="bu">len</span>(genres)), fill_value<span class="op">=</span><span class="dv">0</span>))</span>
+<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a>    plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&quot;Genre Prediction Counts (</span><span class="sc">{</span>modelType<span class="sc">.</span>upper()<span class="sc">}</span><span class="ss">)&quot;</span>)</span>
+<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&quot;Segments Predicted&quot;</span>)</span>
+<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb15-32"><a href="#cb15-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-33"><a href="#cb15-33" aria-hidden="true" tabindex="-1"></a>    majority <span class="op">=</span> predCounts.idxmax()</span>
+<span id="cb15-34"><a href="#cb15-34" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Predicted Genre for file&quot;</span>, os.path.basename(songPath), <span class="st">&quot;:&quot;</span>, genres[majority])</span>
+<span id="cb15-35"><a href="#cb15-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-36"><a href="#cb15-36" aria-hidden="true" tabindex="-1"></a>folderPath <span class="op">=</span> <span class="st">&quot;/kaggle/input/royalty-free-music&quot;</span></span>
+<span id="cb15-37"><a href="#cb15-37" aria-hidden="true" tabindex="-1"></a>songPaths <span class="op">=</span> <span class="bu">sorted</span>(glob.glob(os.path.join(folderPath, <span class="st">&quot;*.wav&quot;</span>)))</span>
+<span id="cb15-38"><a href="#cb15-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-39"><a href="#cb15-39" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;MLP Predictions:&quot;</span>)</span>
+<span id="cb15-40"><a href="#cb15-40" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> songPath <span class="kw">in</span> songPaths:</span>
+<span id="cb15-41"><a href="#cb15-41" aria-hidden="true" tabindex="-1"></a>    predictGenreFromSong(songPath, mlp, modelType<span class="op">=</span><span class="st">&quot;mlp&quot;</span>)</span>
+<span id="cb15-42"><a href="#cb15-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-43"><a href="#cb15-43" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;CNN Predictions:&quot;</span>)</span>
+<span id="cb15-44"><a href="#cb15-44" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> songPath <span class="kw">in</span> songPaths:</span>
+<span id="cb15-45"><a href="#cb15-45" aria-hidden="true" tabindex="-1"></a>    predictGenreFromSong(songPath, cnn, modelType<span class="op">=</span><span class="st">&quot;cnn&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>MLP Predictions:
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="graphs/f644fa6a8ec6a8e879a41708a815d3666da1a73c.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Predicted Genre for file blues.wav : blues
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="graphs/7987b5c4bb23b75483b995888118309e11fd306c.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Predicted Genre for file classical.wav : country
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="graphs/30986d604c030d8ad63e86c01d9c51f344435217.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Predicted Genre for file hiphop.wav : hiphop
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="graphs/044c4dc622105e0fe92ac9eabd42f23b5af17da8.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Predicted Genre for file pop.wav : hiphop
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="graphs/e4379eefe4c42ee7f75f75baf4b2d1dbd0f3e5fb.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Predicted Genre for file reggae.wav : reggae
+CNN Predictions:
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="graphs/b594f35f4d170ea571b635e3c2b02d07d4c34798.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Predicted Genre for file blues.wav : blues
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="graphs/ab3b6dd8f8fa92e5f495d14a3bf7ed6e931fe595.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Predicted Genre for file classical.wav : classical
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="graphs/9abba11cbed8035e105ed5547433ba312f45d9d1.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Predicted Genre for file hiphop.wav : hiphop
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="graphs/0ba6a0c62ab5c9922f487e3ce46c1464c2f1adde.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Predicted Genre for file pop.wav : reggae
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="graphs/8960a1625bc8d94c50c70e69aee0075094a05dcb.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Predicted Genre for file reggae.wav : country
+</code></pre>
+</div>
+</div>
+</body>
+</html>
