@@ -39,7 +39,7 @@ export const mobileProjects = [
         context: "Camlin Group project",
         technologies: ["N/A"],
         team: "N/A",
-        imageURL: `https://play-lh.googleusercontent.com/yJTZEQQAbOzf9jN3SUKuTfXHm_rOvTdXiflx6Z3WdwD6sExDq8CDch_xmm07RQeJa_8=w2560-h1440-rw`,
+        imageURL: null,
         category: "Mobile",
     },
     {
@@ -61,7 +61,7 @@ export const mobileProjects = [
         context: "Camlin Group project",
         technologies: ["N/A"],
         team: "N/A",
-        imageURL: `https://play-lh.googleusercontent.com/lXktVMVTTixII620NK8Mmv61wYks8TgOzqgbkXlboXRe1DEXUDiBhgY0w9_buM5BJw=w2560-h1440-rw`,
+        imageURL: null,
         category: "Mobile",
     },
     {
@@ -72,7 +72,7 @@ export const mobileProjects = [
         context: "Camlin Group project",
         technologies: ["N/A"],
         team: "N/A",
-        imageURL: `https://play-lh.googleusercontent.com/8aEFqwAnHOQW9ajhhqBUjxw79G7fyEmnlOAyjgBbXtOVDKIz4RHp_7tZ00895opt22Q=w2560-h1440-rw`,
+        imageURL: null,
         category: "Mobile",
     },
     {
@@ -83,7 +83,7 @@ export const mobileProjects = [
         context: "ConcordSoft Solutions project",
         technologies: ["React Native", "Expo"],
         team: "Multiple developers",
-        imageURL: `https://play-lh.googleusercontent.com/3ZKQtJCQiogRHst5d-Yi8ChZEYZpVG5Fkt4PsXzoOUtv_Fl1-dhvU3sCfSMKkGWGPGI=w2560-h1440-rw`,
+        imageURL: null,
         category: "Mobile",
     },
     {
@@ -116,13 +116,13 @@ export const mobileProjects = [
         context: "Freelance project",
         technologies: ["React Native", "Expo", "Ruby on Rails"],
         team: "Solo",
-        imageURL: `https://play-lh.googleusercontent.com/yM21E5k_kXKWxny3iB28Rm_xau9GXQ4HaGw71RGna09XOoKXKLaNBWjwuzkpwt6snCw=w2560-h1440-rw`,
+        imageURL: null,
         category: "Mobile",
     },
     {
-        title: "N/A",
+        title: "Fix4You",
         description: "A platform for finding and hiring local service providers",
-        url: null,
+        url: "https://www.fix4you.app/",
         year: 2025,
         context: "Freelance project",
         technologies: ["React Native", "Expo", "Stripe API", "Firebase"],
@@ -138,7 +138,7 @@ export const mobileProjects = [
         context: "ConcordSoft Solutions project",
         technologies: ["React Native", "Expo"],
         team: "Solo",
-        imageURL: "https://play-lh.googleusercontent.com/vlAGIYzpzJjI-2UNd5YaRt0l05XsmM5YesZwJJILck9FeAmTjeliw-LSbedC3vhqC5w=w2560-h1440-rw",
+        imageURL: null,
         category: "Mobile",
     },
 ];
